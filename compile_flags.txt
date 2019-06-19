@@ -1,0 +1,20 @@
+-std=c++17
+-Wall
+-Wextra
+-Werror
+-Wno-long-long
+-Wno-variadic-macros
+-fexceptions
+-I /usr/include
+-I /usr/include/python3.7m
+-I /home/tak0kada/.local/include/python3.7m
+-I .
+-L /usr/lib
+-lpython3.7m
+-lcrypt
+-lpthread
+-ldl
+-lutil
+-lm
+-Xlinker
+-export-dynamic
