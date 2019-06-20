@@ -1,3 +1,5 @@
+#pragma once
+
 #include <cmath>
 #include <boost/math/constants/constants.hpp>
 #include <boost/math/special_functions/spherical_harmonic.hpp>
