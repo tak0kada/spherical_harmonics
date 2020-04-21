@@ -10,7 +10,7 @@ namespace sph
     using real_t = double;
 
     // see the document for the definition
-    real_t sph_harm(const unsigned int& l, const int& m, const real_t& theta, const real_t& phi) {
+    inline real_t sph_harm(const unsigned int& l, const int& m, const real_t& theta, const real_t& phi) {
         using namespace boost::math;
         constexpr real_t sqrt2{double_constants::root_two};
 
